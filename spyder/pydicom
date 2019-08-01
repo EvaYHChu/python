@@ -1,0 +1,8 @@
+# plot dicom image
+import pydicom
+import matplotlib.pyplot as plt
+ds = pydicom.dcmread("XX/XX.IMA")
+plt.figure(1)
+pos =plt.imshow(ds.pixel_array, cmap = plt.cm.gray, vmin=0, vmax=500) 
+plt.colorbar(pos)
+plt.show()
