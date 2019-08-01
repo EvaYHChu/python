@@ -1,0 +1,4 @@
+# seperate the figure windows
+Tools>preferences>IPython console>Graphics
+Backend>Inline to Qt5
+apply and restart
