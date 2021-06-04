@@ -1,0 +1,6 @@
+# install Anaconda
+# install CUDA: https://developer.nvidia.com/cuda-downloads
+
+
+# install pytorch: https://pytorch.org/get-started/locally/
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
