@@ -1,1 +1,6 @@
 >> python.exe pip install package.whl
+
+
+# matlab change python base
+pcPythonExe='C:\Users\eva\AppData\Local\Programs\Python\Python36\python.exe'
+[ver, exec, loaded]	= pyversion(pcPythonExe);
